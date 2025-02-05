@@ -1,2 +1,1 @@
-# R6.05
-School stuff
+# iut-project
