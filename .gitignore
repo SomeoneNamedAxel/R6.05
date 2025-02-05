@@ -1,0 +1,48 @@
+### Node.js ###
+# Dependency directories
+node_modules/
+bower_components/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Operating system files
+*.swp
+*.swo
+
+# Optional npm cache
+.npm/
+
+# Testing coverage reports
+coverage/
+
+# PM2 process manager files
+pm2.log
+pm2.pid
+dump.pm2
+
+# Miscellaneous
+*.bak
+*.tmp
+
+# TypeScript build files
+*.tsbuildinfo
