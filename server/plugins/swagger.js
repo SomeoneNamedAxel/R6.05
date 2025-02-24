@@ -23,9 +23,14 @@ module.exports = {
                             'type' : 'apiKey',
                             'name' : 'Authorization',
                             'in'   : 'header'
+                        },
+                        'bearer': {
+                            'type': 'http',
+                            'scheme': 'bearer',
+                            'bearerFormat': 'JWT'
                         }
                     },
-                    security            : [{ 'jwt' : [] }],
+                    security            : [{ 'jwt' : [] }, { 'bearer': [] }],
                 }
             }
         ]);
